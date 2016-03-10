@@ -1,0 +1,1 @@
+this doc is mainly used to describe how to config ngnix and related module to set nginx http and https server, and which can be cooperated with django
