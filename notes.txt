@@ -1,1 +1,14 @@
-this doc is mainly used to describe how to config ngnix and related module to set nginx http and https server, and which can be cooperated with django
+this doc is mainly used to describe how to config ngnix and related module to set nginx http and https server, and which can be cooperated with django.
+
+uwsgi manual:
+http://uwsgi-docs.readthedocs.org/en/latest/WSGIquickstart.html
+
+http ---> nginx --->uwsgi---->django
+
+1.install uwsgi
+ for setting up https server, we need to setup uwsgi. suggested way:
+ # sudo pip install uwsgi
+
+2.config uwsgi and nginx
+see default file and uwsgi.ini file
+
