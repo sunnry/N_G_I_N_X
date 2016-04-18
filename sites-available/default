@@ -31,6 +31,12 @@ server {
 		alias /home/tony/develop/django/iteamstudio/static;
 	}
 
+
+	location /media {
+		internal;
+		alias /home/tony/develop/django/iteamstudio/media;
+	}
+
 	location / {
 		# First attempt to serve request as file, then
 		# as directory, then fall back to displaying a 404.
