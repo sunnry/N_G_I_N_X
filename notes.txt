@@ -12,3 +12,5 @@ http ---> nginx --->uwsgi---->django
 2.config uwsgi and nginx
 see default file and uwsgi.ini file
 
+vsftp setting:
+the vsftpd.conf is basic config file has already used in aliyun, you should note that any local users can login and upload download file through this configuraton files.
